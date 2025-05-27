@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-image: url(pic/hero-bg.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.logo {
+    padding-left: 30px;
+    font-size: larger;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: large;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #00bcd4; /* Highlight color on hover */
+}
+.text{
+    padding-left: 150px;
+    padding-top: 120px;
+    margin-top: 20px;
+}
+.text h3{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.text h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    width: 300px;
+    font-size: 1.2rem;
+}
+.btn {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+.btn1{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+.btn:hover {
+    color: black;
+    background: white;
+    border: 1px solid transparent;
+}
+
+.btn1:hover {
+    color: black;
+    background: white;
+    border: 1px solid transparent;
+}
+.btn, .btn1 {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
